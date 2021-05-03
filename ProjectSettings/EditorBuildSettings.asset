@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: a2766c953c12f794ea6c276d70240c9c
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MinesweeperScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

@@ -67,7 +67,7 @@ public class MainMenuHandler : MonoBehaviour
     public void OnStartButtonClick()
     {
         //startscene=new AssetBundle.Load.LoadFromFile("Assets/AssetBundles/scenes");
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MinesweeperScene");
     }
     void OnBackToMainClick()
     {
