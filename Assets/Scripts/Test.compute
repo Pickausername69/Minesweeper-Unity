@@ -1,0 +1,27 @@
+﻿
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+
+struct minesweepergames
+{
+    int values;
+    bool hidden;
+};
+int height;
+int games;
+int getthis;
+RWStructuredBuffer<int> output;
+
+[numthreads(8,8,1)]
+void CSMain (uint id : SV_DispatchThreadID)
+{
+    // TODO: insert actual code here!
+        getthis=getthis*5;
+        output[id]=getthis;
+
+}
+
+
